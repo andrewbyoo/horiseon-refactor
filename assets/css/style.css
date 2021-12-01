@@ -1,3 +1,7 @@
+/* -----------------
+ALL ELEMENTS STYLING
+----------------- */
+
 /* Displays content flush to the edge of the screen and makes web page scroll smoothly when navigation links are clicked. */
 * {
     box-sizing: border-box;
@@ -6,10 +10,31 @@
     scroll-behavior: smooth;
 }
 
+
+/* --------------
+FULL PAGE STYLING
+-------------- */
+
 /* Sets color for the background of the whole web page. */
 body {
     background-color: #d9dcd6;
 }
+
+
+/* --------------
+ALL LINKS STYLING
+-------------- */
+
+/* Sets links' text color to white and removes the underlines. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* ------------
+NAV BAR STYLING
+------------ */
 
 /* Sets nav bar spacing, font, background color, and text color of the top bar of the page. Also sets nav bar to stay on page when scrolling. */
 header {
@@ -52,11 +77,10 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Sets links' text color to white and removed the underlines. */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+
+/* --------------
+MAIN PAGE STYLING
+-------------- */
 
 /* Sets main page content text size. */
 p {
@@ -70,6 +94,11 @@ p {
     margin-right: auto;
     display: block;
 }
+
+
+/* -----------------
+MAIN SECTION STYLING
+----------------- */
 
 /* Sets main content's width and margin. Also allows content to be displayed on the right of the page. */
 .content {
@@ -112,6 +141,11 @@ p {
     margin-left: 25px;
 }
 
+
+/* -------------
+SIDE BAR STYLING
+------------- */
+
 /* Sets side bar content's margin, padding, page positioning, size, font, and background color. */
 .benefits {
     margin-right: 20px;
@@ -142,6 +176,11 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* -----------
+FOOTER STYLING
+----------- */
 
 /* Sets footer padding, font, and alignment. */
 .footer {
