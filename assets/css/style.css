@@ -11,7 +11,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Sets spacing, font, background color, and text color of the top bar of the page. */
+/* Sets nav bar spacing, font, background color, and text color of the top bar of the page. Also sets nav bar to stay on page when scrolling. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,15 +21,18 @@ header {
     top: 0;
 }
 
+/* Sets Horiseon link for nav bar to allow other elements to be inline and sets text size. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets color of the "seo" text in "Horiseon" in the nav bar. */
 header h1 .seo {
     color: #c9ff92;
 }
 
+/* Sets spacing between links, text margin and padding from the edge of the screen, font, and text size excluding the Horiseon text header. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,24 +41,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Sets nav bar links to have no bullet points. */
 header nav ul {
     list-style-type: none;
 }
 
+/* Sets nav bar links to be inline with the Horiseon link and sets the margin between nav bar links. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets links' text color to white and removed the underlines. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets main page content text size. */
 p {
     font-size: 16px;
 }
 
+/* Sets hero image margins. */
 .hero {
     margin-bottom: 25px;
     margin-left: auto;
@@ -63,22 +71,48 @@ p {
     display: block;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Sets main content's width and margin. Also allows content to be displayed on the right of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Sets the main contents individual sections' margin, padding, height, font, background color, text color, and scrolling margin for the nav bar. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    scroll-margin-top: 100px;
+}
+
+/* Sets main content images' max height. */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Sets main content headers' bottom margin and font size. */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sets Search Engine Optimization and Social Media Marketing images position to the left of the text and its spacing from the text. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Sets Online Reputation Management image position to the right of the text and its spacing from the text. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets side bar content's margin, padding, page positioning, size, font, and background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,41 +124,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets margin between each side bar section and the bottom edge of the section. Also sets side bar text color. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets the margin and alignment of the side bar headings. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets position, margins, and width of side bar icons. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    scroll-margin-top: 100px;
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Sets footer padding, font, and alignment. */
 .footer {
     padding: 30px;
     clear: both;
@@ -132,10 +151,12 @@ p {
     text-align: center;
 }
 
+/* Sets the footer's header font size. */
 .footer h4 {
     font-size: 20px;
 }
 
+/* Sets Scroll to top link's text color and adds in the link underline. */
 #scroll-to-top {
     color: rgb(0, 0, 255);
     text-decoration: underline;
