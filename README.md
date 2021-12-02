@@ -2,8 +2,15 @@
 ## Description
 The Horiseon client asked for their website's html and css code to be refactored for readability, sustainability, and accessibility while still visually remaining the same.
 
+## User Story
+
+```
+As a marketing agency, I want a codebase that follows accessibility standards so that our own site is optimized for search engines.
+```
+
 ## Deployed web page visual
-![alt text](./assets/images/horiseon-full-page.png)
+
+![Horiseon webpage including nav bar which remains on screen, hero image, and segments with descriptions of the respective categories.](./assets/images/horiseon-full-page.png)
 
 ## Features
 The following features were either previously present, fixed during refactor, or added during refactor:
