@@ -20,18 +20,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
-/* --------------
-ALL LINKS STYLING
--------------- */
-
-/* Sets links' text color to white and removes the underlines. */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
 /* ------------
 NAV BAR STYLING
 ------------ */
@@ -55,6 +43,12 @@ header h1 {
 /* Sets color of the "seo" text in "Horiseon" in the nav bar. */
 header h1 .seo {
     color: #c9ff92;
+}
+
+/* Sets links' text color to white and removes the underlines. */
+header h1 a, nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* Sets spacing between links, text margin and padding from the edge of the screen, font, and text size excluding the Horiseon text header. */
@@ -193,10 +187,4 @@ FOOTER STYLING
 /* Sets the footer's header font size. */
 .footer h4 {
     font-size: 20px;
-}
-
-/* Sets Scroll to top link's text color and adds in the link underline. */
-#scroll-to-top {
-    color: rgb(0, 0, 255);
-    text-decoration: underline;
 }
