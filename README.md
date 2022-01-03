@@ -21,7 +21,7 @@ The following features were either previously present, fixed during refactor, or
 * Hero image was given an alt value for accessibility.
 
 ## Deployed Link
-https://andrewyoo93.github.io/horiseon-refactor/
+https://andrewbyoo.github.io/horiseon-refactor/
 
 ## License
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
